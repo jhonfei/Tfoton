@@ -92,7 +92,6 @@ header img{
     background-color: rgb(1, 102, 1);
     color: white;
     display: flex;
-    
     flex-wrap: wrap;
     padding: 30px;
     justify-content: space-evenly;
@@ -101,17 +100,6 @@ header img{
 #servicios div{
     
     width: 400px;
-}
-@media (max-width: 600px) {
-    #servicios{
-        display: flex;
-        flex-direction: column;
-    }
-    #servicios div {
-        color: brown;
-        font-size: medium;
-        width: 100%; /* Hace que el ancho sea del 100%, ocupando todo el ancho del contenedor padre */
-    }
 }
 
 #promo {
@@ -134,7 +122,23 @@ header img{
     height: 300px;
     border-radius: 10px;
 }
+@media screen and (max-width: 768px) {
+    #servicios {
+        padding: 10px; /* Ajuste de padding para pantallas más pequeñas */
+    }
 
+    #servicios div {
+        width: 100%; /* Ancho del 100% para ocupar todo el ancho en pantallas más pequeñas */
+    }
+
+    #promo {
+        padding: 10px; /* Ajuste de padding para pantallas más pequeñas */
+    }
+
+    #promo img {
+        max-width: 100%; /* Cambiado a ancho del 100% para pantallas más pequeñas */
+    }
+}
 #promo img:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a shadow on hover */
 }
