@@ -102,7 +102,7 @@ header img{
     
     width: 400px;
 }
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
     #servicios{
         display: flex;
         flex-direction: column;
