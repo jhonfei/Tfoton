@@ -92,6 +92,7 @@ header img{
     background-color: rgb(1, 102, 1);
     color: white;
     display: flex;
+    
     flex-wrap: wrap;
     padding: 30px;
     justify-content: space-evenly;
@@ -99,10 +100,13 @@ header img{
 }
 #servicios div{
     
-    width: 700px;
+    width: 400px;
 }
 @media screen and (max-width: 600px) {
-    
+    #servicios{
+        display: flex;
+        flex-direction: column;
+    }
     #servicios div {
         color: brown;
         font-size: medium;
