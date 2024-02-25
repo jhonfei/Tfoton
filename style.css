@@ -10,6 +10,9 @@ h3{
     margin: 20px 0;
 
 }
+p{
+    font-size: medium;
+}
 span{
     text-align: end;
 }
@@ -97,6 +100,14 @@ header img{
 #servicios div{
     
     width: 400px;
+}
+@media screen and (max-width: 600px) {
+    
+    #servicios div {
+        color: brown;
+        font-size: medium;
+        width: 100%; /* Hace que el ancho sea del 100%, ocupando todo el ancho del contenedor padre */
+    }
 }
 
 #promo {
