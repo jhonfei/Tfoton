@@ -87,35 +87,32 @@ header img{
 }
 
 
-#servicios {
+#servicios{
     line-height: 1.5;
-    background-color: rgb(8, 1, 102);
+    background-color: rgb(1, 102, 1);
     color: white;
     display: flex;
+    
     flex-wrap: wrap;
     padding: 30px;
     justify-content: space-evenly;
+    
 }
-
-#servicios div {
+#servicios div{
+    
     width: 400px;
 }
-
 @media screen and (max-width: 600px) {
-    #servicios {
+    #servicios{
         display: flex;
         flex-direction: column;
-        align-items: center; /* Centra los elementos en el eje horizontal */
     }
-
     #servicios div {
         color: brown;
         font-size: medium;
         width: 100%; /* Hace que el ancho sea del 100%, ocupando todo el ancho del contenedor padre */
-        margin-bottom: 20px; /* Agrega un margen inferior para separar los elementos */
     }
 }
-
 
 #promo {
     display: flex;
